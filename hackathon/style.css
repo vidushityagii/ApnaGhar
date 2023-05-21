@@ -1,0 +1,316 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+    background: black;
+}
+ .logo{
+    color: yellowgreen;
+}
+.logo:hover{
+    color: white;
+}
+.exp {
+  background: black;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.name {
+  color: white;
+}
+.nav-item a {
+  text-decoration: none;
+  color: greenyellow;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 15px;
+  transition: all 0.4s;
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+.nav-item a:hover {
+  color: white;
+}
+.navbar-brand {
+  height: 50px;
+  width: 100px;
+}
+.search {
+  height: 45px;
+  outline: white;
+  border: 2px solid greenyellow;
+  background-color: transparent;
+  border-radius: 20px 0px 0px 20px;
+  border-right: none;
+}
+.search:focus {
+  outline: white;
+  box-shadow: none;
+  border: white;
+  border-right: none;
+}
+.btn1 {
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: greenyellow;
+  color: black;
+  border-radius: 0px 15px 15px 0px;
+}
+.btn1:hover {
+  color: white;
+}
+.carousel-inner .imag {
+  width: 1440px;
+  height: 500px;
+}
+/* choice box */
+.main-container {
+  display: flex;
+  padding: 50px;
+}
+.box {
+  width: 33.33%;
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box:hover {
+  border: none !important;
+  box-shadow: 0px 3px 20px white;
+}
+.box:hover .box-content h4 {
+  color: black;
+}
+.box:hover .box-img img {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.box-img {
+  height: 300px;
+  overflow: hidden;
+}
+
+.box-img img {
+  transition: 0.5s;
+}
+
+.box-content {
+  padding: 10px;
+  background: white;
+}
+.box-content h4 {
+  color: rgb(93, 235, 80);
+}
+.box-content p {
+  opacity: 0.6;
+}
+.btn-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn-style {
+  text-decoration: none;
+  background-image: linear-gradient(90deg, #2635c2, #5bc4a4);
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: #fff;
+  animation: pulse 3s infinite linear;
+}
+.btn-style:hover {
+  color: black;
+}
+.choice {
+  background: black;
+}
+
+.product h1 {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.product p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500px;
+  padding-top: 100px;
+}
+.product p:nth-child(2) {
+  font-size: 18px;
+  color: blue;
+}
+.star {
+  text-align: end;
+  color: pink;
+}
+.product .card {
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+.product .card-body {
+  border: 1px dashed gray;
+}
+.product .card-body:hover {
+  box-shadow: 0px 3px 20px #211e1e;
+}
+
+.head1 {
+  font-weight: 400;
+  margin: 0;
+  color: white;
+}
+.per1 {
+  color: white;
+}
+.btnc {
+  height: 50px;
+  width: 50%;
+  outline: none;
+  color: black;
+  background: yellowgreen;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  transition: all 0.4s;
+}
+.btnc:hover {
+  outline: none;
+  border: 1px solid yellowgreen;
+  color: yellowgreen;
+  background: transparent;
+  border-radius: 50px;
+  box-shadow: 0px 3px 20px #6c6c6c;
+}
+.store .nn{
+    background: black;
+}
+.store h1 {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.store p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500px;
+}
+.store p:nth-child(2) {
+  font-size: 18px;
+  color: blue;
+}
+.store i {
+  font-size: 45px;
+}
+.store .card {
+  border-radius: 0;
+  border: 0;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.store .card:hover {
+  background-color: darkorange;
+  color: white;
+}
+.store .card:hover .per1 {
+  color: white;
+}
+.store .card-body:hover {
+  box-shadow: 0px 3px 20px #6c6c6c;
+}
+.store .note {
+  font-size: 16px;
+}
+.seller h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.seller i {
+  color: orange;
+}
+.seller .card {
+  border-radius: 0;
+  border: none;
+  background: black;
+}
+.contact {
+  background: orange;
+  background-size: cover;
+  width: 100%;
+}
+.contact h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+.contact {
+  color: white;
+}
+.contact p {
+  font-size: 1.5rem;
+}
+.circle {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+}
+
+.land-listing {
+  margin-bottom: 40px;
+}
+
+.land-location {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.land-size {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.land-description {
+  margin-bottom: 20px;
+}
+
+.why .h1 {
+  text-align: center;
+}
+.why .feature {
+  margin-bottom: 20px;
+}
+.why .feature-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.why .feature-description {
+  margin-bottom: 10px;
+}
+.why .feature-image {
+  max-width: 400px;
+  max-height: 300px;
+  margin-bottom: 10px;
+}
+.container .feature:hover{
+    box-shadow: white;
+}
+.xc{
+    color: yellowgreen;
+}
+.xl{
+    color: white;
+}
+.ia{
+    padding-bottom: 20px;
+}
+body{
+    background: black;
+}
+.row .x1{
+height: fit-content;
+}
